@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node server.js"
+    "start": "node scheduler.js"
   },
   "dependencies": {
     "node-cron": "^4.1.0"
