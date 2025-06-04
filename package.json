@@ -1,8 +1,25 @@
 {
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SALEHHAYAT8252/Schedule#readme",
+  "bugs": {
+    "url": "https://github.com/SALEHHAYAT8252/Schedule/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SALEHHAYAT8252/Schedule.git"
+  },
+  "license": "ISC",
+  "author": "Hayat",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node scheduler.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "node-cron": "^4.1.0"
-  }
+  },
+  "devDependencies": {}
 }

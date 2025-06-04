@@ -1,6 +1,11 @@
-const fs = require("fs");
-const cron = require("node-cron");
-const path = require("path");
+import cron from "node-cron"
+import fs from "fs";
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 
 const jobsFile = path.join(__dirname, "jobs.json");
 
@@ -52,4 +57,4 @@ function startScheduler() {
     }
   });
 }
-startScheduler();
+export default startScheduler;

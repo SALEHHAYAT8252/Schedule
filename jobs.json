@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Hourly Greeting",
-      "schedule": "10 *  * * *",
+      "schedule": "10 * *  * * *",
       "isRecurring": true
     },
     {
