@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "name": "Hourly Greeting",
+      "schedule": "10 *  * * *",
+      "isRecurring": true
+    },
+    {
+      "id": 2,
+      "name": "Daily Reminder",
+      "schedule": "30 8 * * *",
+      "isRecurring": true
+    },
+    {
+      "id": 3,
+      "name": "One-time Task",
+      "schedule": "*/9 * * * * *",
+      "isRecurring": false
+    }
+  ]
+}
